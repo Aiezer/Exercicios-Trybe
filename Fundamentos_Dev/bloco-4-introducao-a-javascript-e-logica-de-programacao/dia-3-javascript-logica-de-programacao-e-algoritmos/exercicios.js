@@ -6,5 +6,14 @@ for (let i = 1; i <= valor; i += 1) {
     quadrado = quadrado + "*";
 }
 for (let i = 1; i <= valor; i += 1) {
-    console.log(quadrado);
+    //console.log(quadrado);
+}
+
+// 2- Para o segundo exercício, faça o mesmo que antes, mas que imprima um triângulo retângulo com 5 asteriscos de base. Por exemplo:
+
+valor = 5
+let triangulo = ""
+for (let i = 1; i <= valor; i += 1) {
+    triangulo = triangulo + "*";
+    console.log(triangulo);
 }
